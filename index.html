@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Preview</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <img src="https://hbkonline.in/pub/media/catalog/product/a/p/apple_fruit_powder3.jpg" alt="apple">
-        <div class="button-group">
-            <button onclick="increment()" class="button">+1</button>
-            <button class="button" id="valuebutton">0</button>
-            <button onclick="decrement()" class="button">-1</button>
-        </div>
-       
+    <div class="product-container">
+        <h1 id="product-title">Product Title</h1>
+        <img id="product-image" src="default.jpg" alt="Product Image" class="product-image">
+        <p id="product-description">This is a brief description of the product. It explains the key features and benefits.</p>
+        <button class="buy-now">Buy Now</button>
     </div>
-<script src="script.js"></script>
+    
+    <div class="product-options">
+        <button onclick="changeProduct('product1')">Product 1</button>
+        <button onclick="changeProduct('product2')">Product 2</button>
+        <button onclick="changeProduct('product3')">Product 3</button>
+    </div>
 
-</body>    
+    <script src="script.js"></script>
+</body>
 </html>
