@@ -4,19 +4,19 @@ function changeProduct(product) {
     const description = document.getElementById('product-description');
 
     if (product === 'product1') {
-        title.textContent = 'Product 1';
-        image.src = 'path/to/product1.jpg'; 
+        title.textContent = 'Personal Expense Tracker';
+        image.src = 'personal.png'; 
         image.alt = 'Product 1 Image';
-        description.textContent = 'Description for product 1. Highlighting the key features and benefits.';
+        description.textContent = 'A web application that allows users to track their daily expenses. Users can add, edit, and delete expense entries, categorize them (e.g., food, transportation, entertainment), and see a summary of their spending over different time periods.';
     } else if (product === 'product2') {
-        title.textContent = 'Product 2';
-        image.src = 'path/to/product2.jpg'; 
+        title.textContent = 'Fitness Tracker';
+        image.src = 'a recipe book.png'; 
         image.alt = 'Product 2 Image';
-        description.textContent = 'Description for product 2. Showcasing what makes it unique.';
+        description.textContent = 'A recipe book application where users can browse, search for, and save their favorite recipes. The app will include user accounts, so each user can have a personalized collection of recipes. It can also allow users to add their own recipes and share them with others.';
     } else if (product === 'product3') {
-        title.textContent = 'Product 3';
-        image.src = 'path/to/product3.jpg'; 
+        title.textContent = 'Fitness Tracker';
+        image.src = 'fitness tracker.png'; 
         image.alt = 'Product 3 Image';
-        description.textContent = 'Description for product 3. Outlining the essential details and advantages.';
+        description.textContent = 'A fitness tracker app that helps users monitor their physical activities, set fitness goals, and track their progress. Users can log workouts, track their running or cycling routes using GPS, and view detailed statistics and progress reports.';
     }
 }
